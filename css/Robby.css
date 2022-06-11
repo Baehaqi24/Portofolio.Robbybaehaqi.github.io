@@ -1,0 +1,195 @@
+:root {
+    --mainColor : #580a0a;
+    --seconColor : #333646;
+    --acsenColor : #ff9100;
+    --mode : white;
+}
+
+body {
+    min-height: 800px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* mode */
+
+
+/* Navbar */
+.nav-dark {
+    background-color: yellow !important;
+    z-index: 100;
+    transition: 0.1s;
+    opacity: 0.8;
+  }
+
+.nav-link {
+  font-weight: bold;
+}
+
+.nav-item:hover {
+  background: #ff9100;
+  border-radius: 30px;
+}
+
+ul li a:hover {
+  background: wheat;
+  color: black;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+/* Akhir Navbar */
+/* jumbotron */
+.jumbotron {
+    padding-top: 1rem;
+    background-color: wheat;
+}
+
+.rounded-cricle {
+  padding-top: 3rem;
+}
+
+.fa-instagram-square {
+  color: rgb(225, 48, 108);
+}
+
+#mode {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 7px;
+}
+/* About */
+#about {
+    background-color: white;
+    padding-top: 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    width: 90%;
+    height: 5px;
+    color: var(--acsenColor);
+    margin: 0 auto;
+    opacity: 100%;
+  }
+
+/* Skill */
+.progress-container {
+    margin-top: 3px ;
+}
+
+#skill {
+  padding-top: 5rem;
+}
+  /* Sertifikat */
+  #sertifikat {
+      background-color: white;
+      padding-top: 3rem;
+  }
+
+  #sertifikat .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 90%;
+  }
+
+  .a:hover {
+    background-color: wheat;
+  }
+
+  #sertifikat img {
+    transition: 1.5s;
+  }
+
+  #sertifikat img:hover {
+    transform: scale(1.2);
+  }
+  /* Pedidikan */
+  #profesi {
+    background-color: wheat;
+    padding-bottom: 1rem;
+  }
+
+  #profesi .container {
+    width: 100;
+  }
+
+  /* Project */
+  #project {
+    padding-top: 3rem;
+  }
+
+  #project img:hover {
+    transform: scale(1.2);
+  }
+
+  #project img {
+    transition: 1.5s;
+  }
+
+  #project .container {
+    width: 90%;
+  }
+  /* Contact */
+  #contact {
+    background-color: wheat;
+    padding-bottom: 7rem;
+  }
+
+  .form-control {
+    border-radius: 30px;
+  }
+
+  textarea {
+    overflow: auto;
+    touch-action: manipulation;
+  }
+
+  .input-group-addon {
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 30px;
+    color: #555555;
+    transition: color 0.35s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+
+  .fas {
+    display: inline-block;
+    font: normal normal normal 12px/1 FontAwesome;
+    font-size: 20px;
+    text-rendering: auto;
+  }
+
+  #contact .card {
+    background-image: url(../logo\ baecode-modified.png);
+  }
+
+  /* Footer */
+  footer {
+    padding-bottom: 5rem;
+  } 
+
+  .poto {
+    width: 30%;
+  }
+
+  footer a {
+    margin-right: 5px;
+  }
+
+  footer .fa-instagram {
+    color:  rgb(225, 48, 108);
+  }
+
+  footer .fa-github {
+    color :rgba(14, 13, 13, 0.2);
+  }
